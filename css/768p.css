@@ -1,0 +1,318 @@
+body{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    font-size: 240%;
+}
+
+                        /**header**/
+
+header{
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: 230px;
+}
+
+#logo img{
+    width: 150px;
+    height: 80px;
+}
+
+header nav{
+    width: 100%;
+}
+
+header ul{
+    width: 100%;
+    margin: auto;
+    padding-left: 0;
+    border-bottom: 6px #F2F2F2 solid;
+}
+
+header li{
+    width: 50%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header ul :hover{
+    border-bottom: 6px #0065FC solid;
+    border-top: 0;
+    margin-bottom: -5px;
+}
+
+header ul li :hover{
+    border-bottom: 0px #0065FC solid;
+    border-top: 0;
+}
+
+                        /**recherche**/
+
+#recherche{
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin:auto;
+}
+
+#recherche h2{
+    text-align: center;
+    height: auto;
+    font-size: 130%;
+}
+
+#recherche h6{
+    font-size: 90%;
+    height: 100px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.recherche{
+    align-items: baseline;
+    width: 100%;
+    height: 40%;
+}
+
+.recherche .black{
+    padding-top: 20px;
+    width: 70px;
+    height: 70px;
+    font-size: 90%;
+}
+
+form{
+    height: 100%;
+}
+
+.zonerecherche{
+    height: 70px;
+    border-right: 0;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.recherche button{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#recherche .recherche button span{
+    display: none;
+    width: 40px;
+    font-size: 0;
+}
+
+.glass{
+    display: inline;
+    height: 100%;
+}
+
+                        /**filtres**/
+
+#filtres{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+}
+
+#filtres h2{
+    margin: 40px 0 5px 30px;
+}
+
+#filtres ul{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#filtres li{
+    font-size: 95%;
+    height: 80px;
+    margin: 10px;
+    border: 5px #DEEBFF solid;
+    border-left: 0;
+}
+
+#filtres .fa-solid{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 130%;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
+#info{
+    font-size: 89%;
+    width: 85%;
+    margin: auto;
+}
+
+#info span{
+    font-size: 80%;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: 3px #DEEBFF solid;
+    border-radius: 35px;
+}
+
+                        /**hébergement+populaires**/
+
+#hebergements{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+/**populaires**/
+
+.aside2{
+    width: 100%;
+    height: 800px;
+    border-radius: 0;
+    font-size: 80%;
+}
+
+.h2pop{
+    margin-top: 60px;
+}
+
+.populaires{
+    height: 186px;
+}
+
+.populaires img{
+    width: 180px;
+    height: 174px;
+    margin: 6px 3px 6px 6px;
+}
+
+                        /**hébergement**/
+
+.aside1{
+    background-color: white;
+    width: 100%;
+    height: auto;                     
+}
+
+.aside1 h2{
+    font-size: 120%;
+    margin: 50px 0 30px 20px;
+}
+
+.afficherplus{
+margin: 30px 0 35px 30px;
+}
+
+.annonces{
+    width: 100%;
+    height: 1900px;
+}
+
+.colheber1, .colheber2{
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    margin: auto;
+}
+
+.annhebergements{
+    width: 90%;
+    height: 290px;
+    margin: auto;
+}
+
+.annhebergements img{
+    height: 150px;
+}
+
+.infohebergements1{
+    width: 90%;
+    margin: auto;
+}
+
+.infohebergements1 div{
+    font-size: 70%;
+}
+
+                        /**activités**/
+
+#activites{
+    width: 100%;
+    height: 2090px;
+    font-size: 90%;
+}
+
+.activites{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#activites h2{
+    width: 90%;
+    margin: auto;
+}
+
+.activites h3{
+    font-size: 110%;
+}
+
+.colactiv{
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+}
+
+.vieuxport, .Calanques, .Pomegues, .Longchamp, .Frioul, .NotreDame{
+    width: 90%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.vieuxport img, .Calanques img, .Pomegues img, .Longchamp img, .Frioul img, .NotreDame img{
+    width: 100%;
+    height: 210px;
+}
+
+.mini1{
+    display: none;
+}
+
+.mini2{
+    display: inline;
+}
+
+                                        /**footer**/
+
+footer{
+    flex-direction: column;
+    font-size: 230%;
+}
+
+footer nav{
+    width: 100%;
+    height: 180px;
+}
+
+footer h3, footer p{
+    width: 100%;
+}
+
+footer p{
+    margin: 10px;
+    margin-left: 0;
+}
